@@ -1,3 +1,168 @@
-body {
-    font-size: 15pt;
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+ 
+}
+.container{
+  background-color: white;
+  height:500px;
+  width:1140px;
+  padding:10px 20px;
+}
+.header{
+  background-color:white;
+  height: 30px;
+  width: 900px;
+  
+  display: flex;
+  justify-content: space-between;
+  
+}
+.menu{
+  background-color: pink;
+  padding: 10px 20px;
+  height: 300px;
+  
+  display: flex;
+  align-items: center;
+}
+.hits{
+  height: 100px;
+  width: 300px;
+  
+  
+  display: flex;
+  justify-content: center;
+}
+.aside{
+  height: 100%;
+  width: 60%;
+  
+  
+  
+  
+}
+.image-box{
+  height: 30px;
+  width: 50px;
+  
+  display: flex;
+  justify-content: center;
+  
+  
+}
+.common{
+  
+  height: 150px;
+  width: 96%;
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+.watch{
+  height: 100%;
+  padding: 20px;
+  background-color: orange;
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  
+}
+.bag{
+  height: 100%;
+  padding: 20px;
+  width: 300px;
+  background-color: deeppink;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+.shoes{
+  height: 100%;
+  padding: 20px;
+  width: 300px;
+  background-color: blue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  
+}
+.a{
+  height: 30px;
+  width: 50px;
+  background-color: deeppink;
+  display: flex;
+  justify-content: flex-end;
+}
+.b{
+  
+  
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+}
+.c{
+ 
+  height: auto;
+  width: 300px;
+border: solid;
+}
+.d{
+  
+  height: auto;
+  width: 300px;
+  border: solid;
+}
+.e{
+  height: auto;
+  width: 300px;
+  border: solid;
+}
+.image{
+  padding: 10px;
+  height: 100%;
+  width: 250px;
+  text-align: center;
+  justify-content: center;
+}
+.f{
+  
+  height: 500px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  
+}
+.g{
+  
+  height: 100%;
+  width: 300px;
+  border: solid;
+}
+.h{
+  
+height: 100%;
+width: 300px;
+border: solid;
+}
+.i{
+ 
+  height: 100%;
+  width: 300px;
+  border: solid;
+}
+.santo{
+  background-color: pink;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
 }
