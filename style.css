@@ -9,11 +9,12 @@
   height:500px;
   width:1140px;
   padding:10px 20px;
+  margin:0 auto;
 }
 .header{
   background-color:white;
   height: 30px;
-  width: 900px;
+  width: 100%;
   
   display: flex;
   justify-content: space-between;
@@ -21,41 +22,56 @@
 }
 .menu{
   background-color: pink;
-  padding: 10px 20px;
+  padding: 20px 0;
+  width:100%;
   height: 300px;
-  
   display: flex;
   align-items: center;
+  justify-content: space-between;
+}
+.price{
+  color:deeppink;
+}
+.menu-btn{
+  background-color:deeppink;
+  color: white;
+  padding:10px;
+  border:none;
+  height: 30px;
+  width:100px;
+  cursor: pointer;
+  
 }
 .hits{
-  height: 100px;
-  width: 300px;
-  
-  
+  height: 300px;
+  width: 350px;
+  padding: 20px;
   display: flex;
-  justify-content: center;
+ justify-content: center;
 }
 .aside{
   height: 100%;
   width: 60%;
-  
-  
-  
-  
-}
+  align-items: center ;
+  padding:40px;
+  }
+ 
+ 
 .image-box{
   height: 30px;
-  width: 50px;
+  width:150px;
   
   display: flex;
   justify-content: center;
+  
+  
   
   
 }
 .common{
   
-  height: 150px;
-  width: 96%;
+  height: 100px;
+  width:100%;
   display: flex;
   justify-content: space-around;
   gap: 20px;
@@ -64,17 +80,18 @@
   height: 100%;
   padding: 20px;
   background-color: orange;
-  width: 300px;
+  width: 350px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   color: white;
+  bborder-radius: 10px;
   
 }
 .bag{
   height: 100%;
   padding: 20px;
-  width: 300px;
+  width: 350px;
   background-color: deeppink;
   display: flex;
   justify-content: space-between;
@@ -84,7 +101,7 @@
 .shoes{
   height: 100%;
   padding: 20px;
-  width: 300px;
+  width: 350px;
   background-color: blue;
   display: flex;
   justify-content: space-between;
@@ -102,16 +119,19 @@
 .b{
   
   
-  width: 100%;
+  width: 1140px;
+  height: 400px;
   display: flex;
   justify-content: space-around;
-  gap: 10px;
+  
+  align-items: center;
 }
 .c{
  
   height: auto;
-  width: 300px;
+  width: 310px;
 border: solid;
+
 }
 .d{
   
@@ -125,18 +145,30 @@ border: solid;
   border: solid;
 }
 .image{
-  padding: 10px;
+  padding: 20px;
   height: 100%;
-  width: 250px;
+  width: 300px;
   text-align: center;
   justify-content: center;
+  
+}
+.shoe-btn{
+  background-color:black;
+  color:white;
+  padding: 10px 20px;
+  border: none;
+  text-align: center;
+  margin-bottom: 20px
+  
 }
 .f{
   
-  height: 500px;
-  width: 100%;
+  height:400px;
+  width:1140px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
+  
   
 }
 .g{
@@ -157,12 +189,43 @@ border: solid;
   width: 300px;
   border: solid;
 }
+.bag-btn{
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  border:none;
+  
+}
+
 .santo{
   background-color: pink;
   height: 300px;
   display: flex;
   flex-direction: column;
-
-  justify-content: center;
+  gap:20px;
+ justify-content: center;
   align-items: center;
+  padding: 100px 150px;
+}
+.santo h1{
+  text-transform:uppercase;
+}
+.santo p{
+  margin: 10px 0;
+  color: gray;
+}
+.santo form{
+  display: flex;
+}
+#email{
+  padding: 10px;
+  border:none;
+  border-radius: 5px 0 0 5px;
+}
+.btn-send{
+  width: 70px;
+  border: none;
+  color: white;
+  background-color: deeppink;
 }
