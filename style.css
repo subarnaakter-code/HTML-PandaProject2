@@ -33,20 +33,20 @@
 .price{
   color:deeppink;
 }
-.menu-btn{
-  background-color:deeppink;
+.banner-button{
+  background-color: deeppink;
   color: white;
   padding:10px;
   border:none;
   height: 30px;
-  width:100px;
+  width:90px;
   cursor: pointer;
   border-radius: 5px;
 }
 .hits{
-  height: 300px;
-  width: 350px;
-  padding: 20px;
+  height: 240px;
+  width: 360px;
+  padding: 10px;
   display: flex;
  justify-content: center;
 }
@@ -54,7 +54,7 @@
   height: 100%;
   width: 60%;
   align-items: center ;
-  padding:40px;
+  padding:20px;
   }
  
  
@@ -75,7 +75,7 @@
   width:100%;
   display: flex;
   justify-content: space-around;
-  gap: 20px;
+  gap: 10px;
 }
 .watch{
   height: 100%;
@@ -133,7 +133,7 @@
 .c{
  
   height: auto;
-  width: 310px;
+  width: 340px;
 border: solid;
 
 border-radius: 10px;
@@ -142,20 +142,20 @@ border-radius: 10px;
 .d{
   
   height: auto;
-  width: 300px;
+  width: 340px;
   border: solid;
   border-radius: 10px;
 }
 .e{
   height: auto;
-  width: 300px;
+  width: 340px;
   border: solid;
   border-radius: 10px;
 }
 .image{
-  padding: 20px;
+  padding: 10px;
   height: 100%;
-  width: 300px;
+  width: 340px;
   text-align: center;
   justify-content: center;
   
@@ -163,7 +163,7 @@ border-radius: 10px;
 .shoe-btn{
   background-color:black;
   color:white;
-  padding: 10px 20px;
+  padding:10px 20px;
   text-align: center;
   margin-bottom: 20px;
   border-radius: 5px;
@@ -171,35 +171,38 @@ border-radius: 10px;
 }
 .f{
   
-  height:400px;
-  width:1140px;
+  
+  width: 1140px;
+  height: 400px;
   display: flex;
   justify-content: space-around;
+  
   align-items: center;
   border-radius: 10px;
-  
 }
 .g{
-  
-  height: 100%;
-  width: 300px;
-  border: solid;
-  border-radius: 10px;
+ 
+  height: auto;
+  width: 340px;
+border: solid;
+
+border-radius: 10px;
+
 }
 .h{
   
-height: 100%;
-width: 300px;
-border: solid;
-border-radius: 10px;
-}
-.i{
- 
-  height: 100%;
-  width: 300px;
+  height: auto;
+  width: 340px;
   border: solid;
   border-radius: 10px;
 }
+.i{
+  height: auto;
+  width: 340px;
+  border: solid;
+  border-radius: 10px;
+}
+
 .bag-btn{
   background-color: black;
   color: white;
