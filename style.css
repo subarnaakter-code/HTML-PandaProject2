@@ -6,28 +6,28 @@
 }
 .container{
   background-color: white;
-  height:500px;
-  width:1140px;
-  padding:10px 20px;
-  margin:0 auto;
+  height: 100%;
+  width: 100%;
+  padding: 10px 20px;
+  margin: 0 auto ;
 }
 .header{
   background-color:white;
   height: 30px;
-  width: 100%;
-  
+  width: 948px;
   display: flex;
   justify-content: space-between;
+  padding:20px 0;
+  
   
 }
 .menu{
   background-color: pink;
-  padding: 20px 0;
-  width:100%;
-  height: 300px;
+  padding: 20px;
+  height: 250px;
+  width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
   border-radius: 10px;
 }
 .price{
@@ -35,53 +35,48 @@
 }
 .banner-button{
   background-color: deeppink;
-  color: white;
-  padding:10px;
-  border:none;
-  height: 30px;
-  width:90px;
-  cursor: pointer;
+  color:white;
+  border: none ;
+  width: 90px;
+  height: 25px;
   border-radius: 5px;
 }
 .hits{
-  height: 240px;
-  width: 360px;
-  padding: 10px;
+  height: 180px;
+  width: 220px;
   display: flex;
- justify-content: center;
+  justify-content: center;
 }
 .aside{
   height: 100%;
-  width: 60%;
-  align-items: center ;
-  padding:20px;
-  }
+  width: 100%;
+  
  
- 
+  
+  
+}
 .image-box{
   height: 30px;
-  width:150px;
+  width: 50px;
   
   display: flex;
   justify-content: center;
-  
-  
   
   
 }
 .common{
   
   height: 100px;
-  width:100%;
+  width: 100%;
   display: flex;
   justify-content: space-around;
-  gap: 10px;
+  gap: 20px;
 }
 .watch{
   height: 100%;
   padding: 20px;
   background-color: orange;
-  width: 350px;
+  width: 300px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -92,7 +87,7 @@
 .bag{
   height: 100%;
   padding: 20px;
-  width: 350px;
+  width: 300px;
   background-color: deeppink;
   display: flex;
   justify-content: space-between;
@@ -103,7 +98,7 @@
 .shoes{
   height: 100%;
   padding: 20px;
-  width: 350px;
+  width: 300px;
   background-color: blue;
   display: flex;
   justify-content: space-between;
@@ -121,98 +116,86 @@
 }
 .b{
   
-  
-  width: 1140px;
-  height: 400px;
+  height: 500px;
+  width: 300px;
   display: flex;
   justify-content: space-around;
-  
-  align-items: center;
+  gap: 20px;
   border-radius: 10px;
 }
 .c{
  
-  height: auto;
-  width: 340px;
+  height: 90%;
+  width: 300px;
 border: solid;
-
 border-radius: 10px;
-
 }
 .d{
   
-  height: auto;
-  width: 340px;
+  height: 90%;
+  width: 300px;
   border: solid;
   border-radius: 10px;
 }
 .e{
-  height: auto;
-  width: 340px;
+  height:90%;
+  width: 300px;
   border: solid;
   border-radius: 10px;
 }
 .image{
   padding: 10px;
-  height: 100%;
-  width: 340px;
+  height: 90%;
+  width: 300px;
   text-align: center;
   justify-content: center;
-  
 }
 .shoe-btn{
+ 
   background-color:black;
   color:white;
-  padding:10px 20px;
+  padding: 10px 20px;
+  border: none;
   text-align: center;
   margin-bottom: 20px;
-  border-radius: 5px;
-  
+  border-radius:5px;
 }
 .f{
   
-  
-  width: 1140px;
-  height: 400px;
+  height: 500px;
+  width: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   
-  align-items: center;
-  border-radius: 10px;
 }
 .g{
- 
-  height: auto;
-  width: 340px;
-border: solid;
-
-border-radius: 10px;
-
+  
+  height: 90%;
+  width: 300px;
+  border: solid;
+  border-radius: 10px;
 }
 .h{
   
-  height: auto;
-  width: 340px;
-  border: solid;
-  border-radius: 10px;
+height: 90%;
+width: 300px;
+border: solid;
+border-radius: 10px;
 }
 .i{
-  height: auto;
-  width: 340px;
+ 
+  height: 90%;
+  width: 300px;
   border: solid;
   border-radius: 10px;
 }
-
 .bag-btn{
   background-color: black;
   color: white;
   padding: 10px 20px;
   margin-bottom: 20px;
-  border:none;
   border-radius: 5px;
-  
 }
-
 .santo{
   background-color: pink;
   height: 300px;
@@ -222,6 +205,7 @@ border-radius: 10px;
  justify-content: center;
   align-items: center;
   padding: 100px 150px;
+  margin:50px 0;
   border-radius: 10px;
 }
 .santo h1{
@@ -244,4 +228,5 @@ border-radius: 10px;
   border: none;
   color: white;
   background-color: deeppink;
+  border-radius: 3px;
 }
